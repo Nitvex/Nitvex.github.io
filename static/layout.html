@@ -14,15 +14,15 @@
 			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 			crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="static/common-styles.css">
-<link rel="stylesheet" href="static/elements-styles.css">
-<title>Welcome to Portfolio! — Portfolio</title>
+        <link rel="stylesheet" href="{{ '/static/common-styles.css'|url }}">
+<link rel="stylesheet" href="{{ '/static/elements-styles.css'|url }}">
+<title>{% block title %}Welcome{% endblock %} — Portfolio</title>
 <body>
   <div class="container-fluid">
 
           <div class="row">
               <div class="col-3 px-4 py-4 left-column">
-                <img src="static/undraw_smiley_face_lmgm.svg" style="max-width: 100%;">
+                <img src="undraw_smiley_face_lmgm.svg" style="max-width: 100%;">
               </div>
               <div class="col-9 px-5">
                 <div class="name mt-4">Nikita</div>
@@ -30,10 +30,10 @@
                 <div class="info">Web Developer & Frontend Expert</div>
                 <hr style="width: 90%;"/>
                 <div class="row">
-                  <img src="static/undraw_social_sharing_ibwq.svg" class="icon mx-2"/>
-                  <img src="static/undraw_tweetstorm_49e8.svg" class="icon mx-2"/>
-                  <img src="static/undraw_pcsocial_16rw.svg" class="icon mx-2"/>
-                  <img src="static/undraw_social_networking_nqk4.svg" class="icon mx-2"/>
+                  <img src="undraw_social_sharing_ibwq.svg" class="icon mx-2"/>
+                  <img src="undraw_tweetstorm_49e8.svg" class="icon mx-2"/>
+                  <img src="undraw_pcsocial_16rw.svg" class="icon mx-2"/>
+                  <img src="undraw_social_networking_nqk4.svg" class="icon mx-2"/>
                 </div>
               </div>
           </div>
